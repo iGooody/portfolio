@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #7796CB;
+  }
+
+li {
+    float: left;
+  }
+  
+  li button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    border-radius: 10px;;
+    border: none;
+    display: block;
+    background-color: #7796CB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-color: aliceblue;
+  }
+  
+  li button:hover {
+    background-color: aliceblue;
+  }
